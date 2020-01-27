@@ -24,7 +24,7 @@ namespace CircusEditor
         private byte[] Script;
         public Encoding Encoding = Encoding.GetEncoding(932);
         public bool Filter = true;
-        public byte Obfuscation = 0x20;//General Games
+        public byte Obfuscation = 0x01;//General Games = 0x20
         //public byte Obfuscation = 0x01;//Some Games, Newer?
 
 
